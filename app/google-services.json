@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "595469283213",
+    "project_id": "mvvm-task-adb88",
+    "storage_bucket": "mvvm-task-adb88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595469283213:android:8390959e179e9c26ad57c4",
+        "android_client_info": {
+          "package_name": "com.example.mvvm_task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgEt1kvryf_ajoQl1Zu9urMg0LmoeQA7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

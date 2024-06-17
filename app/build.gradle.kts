@@ -4,6 +4,10 @@ plugins {
 }
 
 android {
+    buildFeatures{
+        viewBinding = true
+    }
+
     namespace = "com.example.mvvm_task"
     compileSdk = 34
 
