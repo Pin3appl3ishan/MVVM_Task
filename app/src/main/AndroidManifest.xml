@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MVVM_Task"
         tools:targetApi="31">
         <activity
+            android:name=".ui.activity.UpdateStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.AddStudentActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.activity.DashboardActivity"
             android:exported="false" />
         <activity

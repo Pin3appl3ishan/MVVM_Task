@@ -6,8 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.mvvm_task.R
+import com.example.mvvm_task.databinding.ActivityDashboardBinding
 
 class DashboardActivity : AppCompatActivity() {
+    lateinit var dashboardBinding: ActivityDashboardBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
