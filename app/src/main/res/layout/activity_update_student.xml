@@ -24,19 +24,19 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:id="@+id/editTextProductNameUpdate"
+        android:id="@+id/updateName"
         android:hint="@string/product_name"
         android:layout_height="wrap_content"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:id="@+id/editTextProductPriceUpdate"
+        android:id="@+id/updatePrice"
         android:hint="@string/product_price"
         android:layout_height="wrap_content"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:id="@+id/editTextProductDescUpdate"
+        android:id="@+id/updateDesc"
         android:hint="@string/student_desc"
         android:layout_height="wrap_content"/>
 
