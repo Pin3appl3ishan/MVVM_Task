@@ -41,7 +41,6 @@ class StudentAdapter (var context: Context, var data : ArrayList<StudentModel>) 
             var intent = Intent(context, UpdateStudentActivity::class.java)
             intent.putExtra("product",data[position])
             context.startActivity(intent)
-
         }
     }
 
