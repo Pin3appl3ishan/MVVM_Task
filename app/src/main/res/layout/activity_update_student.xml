@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.UpdateStudentActivity">
+
+    <ImageView
+        android:id="@+id/updateImageBrowse"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/baseline_add_a_photo_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:hint="@string/browse"
+        android:layout_marginBottom="20sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editTextProductNameUpdate"
+        android:hint="@string/product_name"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editTextProductPriceUpdate"
+        android:hint="@string/product_price"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editTextProductDescUpdate"
+        android:hint="@string/student_desc"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btnPostUpdate"
+        android:layout_gravity="center"
+        android:text="@string/save"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
